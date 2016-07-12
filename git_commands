@@ -1,0 +1,15 @@
+git clone url_to_git_repo
+
+git status
+
+git add file_name
+
+git commit -m "change description"
+
+git push
+
+git pull
+
+git add -A
+
+
