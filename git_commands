@@ -13,3 +13,10 @@ git pull
 git add -A
 
 
+----------tmux commands---------------
+ctrl+B %    ----------> vertical partition
+ctrl+B "    ----------> horizontal partition
+ctrl+B d    ----------> delete a session
+ctrl+B  < ^ >    ----------> move into left/upper/right session
+ctrl+B c    ----------> new window
+ctrl+B window_no    ----------> to switch between windows
