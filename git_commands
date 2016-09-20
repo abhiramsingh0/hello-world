@@ -20,3 +20,9 @@ ctrl+B d    ----------> delete a session
 ctrl+B  < ^ >    ----------> move into left/upper/right session
 ctrl+B c    ----------> new window
 ctrl+B window_no    ----------> to switch between windows
+
+
+------------------vim commands----------
+v   ----> to select the text/lines
+>>  ----> to move select text/lines to the right
+:set paste ----> to properly paste ie with alignment
