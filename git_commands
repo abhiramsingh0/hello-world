@@ -20,7 +20,8 @@ ctrl+B d    ----------> delete a session
 ctrl+B  < ^ >    ----------> move into left/upper/right session
 ctrl+B c    ----------> new window
 ctrl+B window_no    ----------> to switch between windows
-
+ctrl+B [    ---> to scroll up or down
+q     -> to quit the scroll mode
 
 ------------------vim commands----------
 v   ----> to select the text/lines
