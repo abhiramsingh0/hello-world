@@ -27,3 +27,5 @@ q     -> to quit the scroll mode
 v   ----> to select the text/lines
 >>  ----> to move select text/lines to the right
 :set paste ----> to properly paste ie with alignment
+:'<,'>norm i# ---> to insert # in visually selected lines
+:'<,'>norm x  ---> to remove # from visulaay selected lines
