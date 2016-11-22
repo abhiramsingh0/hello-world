@@ -29,3 +29,4 @@ v   ----> to select the text/lines
 :set paste ----> to properly paste ie with alignment
 :'<,'>norm i# ---> to insert # in visually selected lines
 :'<,'>norm x  ---> to remove # from visulaay selected lines
+ctrl+v, l   ---> to select specific columns
