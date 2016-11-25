@@ -30,3 +30,9 @@ v   ----> to select the text/lines
 :'<,'>norm i# ---> to insert # in visually selected lines
 :'<,'>norm x  ---> to remove # from visulaay selected lines
 ctrl+v, l   ---> to select specific columns
+
+
+------------------cscope and ctags------------------
+ctags -R .     --> to apply in a floder
+cscope -bcqR   --> to apply in a folder
+cscope -R      --> to use
