@@ -36,3 +36,4 @@ ctrl+v, l   ---> to select specific columns
 ctags -R .     --> to apply in a floder
 cscope -bcqR   --> to apply in a folder
 cscope -R      --> to use
+cscope -d      --> to use without regenerating database
