@@ -38,3 +38,25 @@ ctags -R .     --> to apply in a floder
 cscope -bcqR   --> to apply in a folder
 cscope -R      --> to use
 cscope -d      --> to use without regenerating database
+
+filetype indent plugin on
+set tabstop=4
+set expandtab
+set shiftwidth=4
+set softtabstop=4
+set textwidth=79
+set smartindent
+set autoindent
+set nu
+syntax enable
+set showmatch
+let python_highlight_all = 1
+set cursorline
+execute pathogen#infect()
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
