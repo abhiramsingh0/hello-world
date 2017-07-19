@@ -1,0 +1,9 @@
+creating subplots
+f,axarr = plt.subplots(no_of_subplots,sharex=True)
+axarr[0].plot(x,y)
+https://matplotlib.org/examples/pylab_examples/subplots_demo.html
+----------------------------------------------------------------------
+import csv file
+import numpy as np
+data = np.genfromtxt("file_path",delimiter=',')
+strings become nan.
