@@ -70,3 +70,6 @@ jupyter notebook keyboard shortcuts:
     Cell creation: a, b
     Cell editing: x, c, v, d, z
     Kernel operations: i, 0 (press twice)
+
+activate virtualenc in ubuntu
+source ~/tensorflow/bin/activate
