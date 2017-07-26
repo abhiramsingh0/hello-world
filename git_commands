@@ -72,4 +72,4 @@ jupyter notebook keyboard shortcuts:
     Kernel operations: i, 0 (press twice)
 
 activate virtualenc in ubuntu
-source ~/tensorflow/bin/activate
+source ~/TF/bin/activate
