@@ -33,6 +33,12 @@ ctrl+v, l   ---> to select specific columns
 ctrl+g ---> to know the path
 press 1 then ctrl+g ---> to know the full path
 
+For commenting a block of text is almost the same:
+    First, go to the first line you want to comment, press CtrlV. This will put the editor in the VISUAL BLOCK mode.
+    Then using the arrow key and select until the last line
+    Now press ShiftI, which will put the editor in INSERT mode and then press #. This will add a hash to the first line.
+    Then press Esc (give it a second), and it will insert a # character on all other selected lines.
+
 ------------------cscope and ctags------------------
 ctags -R .     --> to apply in a floder
 cscope -bcqR   --> to apply in a folder
