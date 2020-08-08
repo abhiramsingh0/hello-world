@@ -8,21 +8,21 @@
     "label": "",
     "nodes": [
         {
-            "id": "172.16.40.24",
+            "id": "10.0.0.0",
             "label": "node A",
             "properties": {
                 "hostname": "node1.my.net"
             }
         },
         {
-            "id": "172.16.40.60",
+            "id": "20.0.0.0",
             "label": "node B",
             "properties": {
                 "hostname": "node2.my.net"
             }
         },
         {
-            "id": "172.16.41.1",
+            "id": "30.0.0.0",
             "label": "node C",
             "properties": {
                 "hostname": "node3.my.net"
@@ -31,18 +31,18 @@
     ],
     "links": [
         {
-            "source": "172.16.40.24",
-            "target": "172.16.40.60",
+            "source": "10.0.0.0",
+            "target": "20.0.0.0",
             "cost": 1.000
         },
         {
-            "source": "172.16.40.24",
-            "target": "172.16.41.1",
+            "source": "20.0.0.0",
+            "target": "30.0.0.0",
             "cost": 1.000
         },
         {
-            "source": "172.16.40.60",
-            "target": "172.16.41.1",
+            "source": "10.0.0.0",
+            "target": "30.0.0.0",
             "cost": 1.000
         }
     ]
