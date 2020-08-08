@@ -2,25 +2,14 @@
     "type": "NetworkGraph",
     "protocol": "olsr",
     "version": "0.6.6",
-    "revision": "5031a799fcbe17f61d57e387bc3806de",
     "metric": "etx",
-    "router_id": "1",
-    "label": "Test Network",
     "nodes": [
         {
             "id": "1",
-            "label": "node A",
-            "properties": {
-                "hostname": "node1.my.net"
-            }
         },
         {
             "id": "2",
-            "label": "node B",
-            "properties": {
-                "hostname": "node2.my.net"
-            }
-        },
+        }
     ],
     "links": [
         {
