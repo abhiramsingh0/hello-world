@@ -25,7 +25,7 @@
     "links": [
         {
             "source": "1",
-            "target": "1",
+            "target": "2",
             "cost": 1.000
         }
     ]
