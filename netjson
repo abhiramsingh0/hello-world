@@ -2,20 +2,48 @@
     "type": "NetworkGraph",
     "protocol": "olsr",
     "version": "0.6.6",
+    "revision": "",
     "metric": "etx",
+    "router_id": "",
+    "label": "",
     "nodes": [
         {
-            "id": "10.0.0.0",
+            "id": "172.16.40.24",
+            "label": "node A",
+            "properties": {
+                "hostname": "node1.my.net"
+            }
         },
         {
-            "id": "20.0.0.0",
+            "id": "172.16.40.60",
+            "label": "node B",
+            "properties": {
+                "hostname": "node2.my.net"
+            }
+        },
+        {
+            "id": "172.16.41.1",
+            "label": "node C",
+            "properties": {
+                "hostname": "node3.my.net"
+            }
         }
     ],
     "links": [
         {
-            "source": "10.0.0.0",
-            "target": "20.0.0.0",
-            "cost": 1.0
+            "source": "172.16.40.24",
+            "target": "172.16.40.60",
+            "cost": 1.000
+        },
+        {
+            "source": "172.16.40.24",
+            "target": "172.16.41.1",
+            "cost": 1.000
+        },
+        {
+            "source": "172.16.40.60",
+            "target": "172.16.41.1",
+            "cost": 1.000
         }
     ]
 }
